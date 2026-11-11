@@ -1,0 +1,32 @@
+#!/bin/bash
+#SBATCH --job-name=das_final_llama70b
+#SBATCH --output=logs/das_final_llama_70b_it_%j.out
+#SBATCH --error=logs/das_final_llama_70b_it_%j.err
+#SBATCH --partition=gpu_h100
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus=4
+#SBATCH --mem=256G
+#SBATCH --time=24:00:00
+
+mkdir -p logs results
+module purge
+module load 2023
+module load Python/3.11.3-GCCcore-12.3.0
+module load CUDA/12.1.1
+source "$HOME/envs/das/bin/activate"
+cd "$SLURM_SUBMIT_DIR"
+export PYTHONPATH="$(cd "$SLURM_SUBMIT_DIR/.." && pwd):$PYTHONPATH"
+echo "Job ID: $SLURM_JOB_ID  Node: $SLURMD_NODENAME  Started: $(date)"
+
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+DAS_MODEL=meta-llama/Llama-3.1-70B-Instruct \
+METAPHOR_DATA=../data/gut-2016-new.csv \
+DAS_K_VALUES=16,32 \
+FORCE_LAYER=28 \
+BATCH_SIZE=2 \
+DAS_BATCH=4 \
+python -u metaphor_das.py
+
+echo "Exit code: $?  Done: $(date)"
