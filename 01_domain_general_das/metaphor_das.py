@@ -54,6 +54,7 @@ def load_model(model_name: str):
         model_name, device_map="auto", torch_dtype=torch.float16
     )
     model.eval()
+    # freezes model weights
     for param in model.parameters():
         param.requires_grad_(False)
     print(f"Loaded {model_name}")
@@ -64,7 +65,7 @@ class RotationMatrix(nn.Module):
     def __init__(self, d_model: int, k: int) -> None:
         super().__init__()
         Q, _ = torch.linalg.qr(torch.randn(d_model, d_model))
-        self.R = nn.Parameter(Q[:, :k].clone())
+        self.R = nn.Parameter(Q[:, :k].clone()) # we keep only the k first columns of this matrix.
 
     def project(self, h: torch.Tensor) -> torch.Tensor:
         return h @ self.R @ self.R.T
@@ -74,7 +75,7 @@ class RotationMatrix(nn.Module):
             Q, _ = torch.linalg.qr(self.R)
             self.R.copy_(Q)
 
-# best layer function
+# best layer function. picks the elbow.
 def kneedle_layer(layer_iia: dict) -> int:
     layers = sorted(layer_iia.keys())
     iia = np.array([layer_iia[l] for l in layers], dtype=float)
@@ -142,7 +143,8 @@ def make_prompt(adj: str, noun: str, few_shot_prefix: str = "") -> str:
 
 # token extraction
 def get_met_lit_toks(tokenizer) -> tuple[int, int]:
-    """Return (met_tok, lit_tok). Uses ' metaphor'/' literal' — single token for all models."""
+    """Return token ids for metaphor and literal. Whole words for Gemma, Llama and Qwen; for Mistral and Mixtral ' metaphor' is split
+  and its first piece ('met') is used."""
     met = tokenizer(" metaphor", add_special_tokens=False).input_ids[0]
     lit = tokenizer(" literal",  add_special_tokens=False).input_ids[0]
     return met, lit
@@ -167,7 +169,7 @@ def build_few_shot_prefix(
     return "\n".join(lines) + "\n"
 
 
-# make data in the correct prompt format
+# make data in the correct prompt format: pandas Dataframe. 
 def load_data() -> pd.DataFrame:
     df = pd.read_csv(DATA_PATH)
     df["adj"]    = df["expression"].str.strip()
@@ -189,7 +191,7 @@ def load_data() -> pd.DataFrame:
 
 #extraction of hidden states
 def extract_hidden(model, tokenizer, prompts: list[str], layer: int) -> np.ndarray:
-    """Extract residual stream at period token ('.' in test sentence) at given layer."""
+    """Extract residual stream vector at period token ('.' in test sentence) at given layer for all senteces."""
     all_hidden = []
     captured   = {}
 
@@ -213,6 +215,7 @@ def extract_hidden(model, tokenizer, prompts: list[str], layer: int) -> np.ndarr
                 all_hidden.append(hidden[j, period_pos[j].item(), :].numpy())
     finally:
         hook.remove()
+    #glues all hidden vecotrs into one matrix.
     return np.stack(all_hidden, axis=0)
 
 
@@ -221,7 +224,7 @@ def get_correct_mask(
     prompts: list[str], labels: list[int],
     met_tok: int, lit_tok: int,
 ) -> np.ndarray:
-    """Boolean mask: True where model's argmax(met_tok, lit_tok) matches the ground-truth label."""
+    """Returns True for every prompt where the model answers correctly, and False where it answers wrong."""
     mask = []
     for i in range(0, len(prompts), BATCH_SIZE):
         batch  = prompts[i : i + BATCH_SIZE]
@@ -241,14 +244,13 @@ def get_correct_mask(
             mask.append(pred == b_lbls[j])
     return np.array(mask, dtype=bool)
 
-
 #Activation patching IIA (layer sweep)
 def patching_iia(
     model, tokenizer,
     prompts_met: list[str], prompts_lit: list[str],
     layer: int, met_tok: int, lit_tok: int,
 ) -> float:
-    """Activation patching at period token (met→lit). Correct-only proxy for layer selection."""
+    """Full vector activation patching at period token (met→lit). Proxy for layer selection. We use correct-only pairs."""
     met_mask    = get_correct_mask(model, tokenizer, prompts_met, [1]*len(prompts_met), met_tok, lit_tok)
     lit_mask    = get_correct_mask(model, tokenizer, prompts_lit, [0]*len(prompts_lit), met_tok, lit_tok)
     prompts_met = [p for p, m in zip(prompts_met, met_mask) if m]
@@ -302,12 +304,7 @@ def patching_iia(
 
 #Helper layer selector
 def kneedle_layer(layer_iia: dict) -> int:                                                                                                                            
-    """                                                                                                                                                               
-    Select the layer of maximum curvature in the IIA-vs-layer curve.                                                                                                  
-    Normalises both axes to [0, 1] and finds argmax(y_n - x_n) — the point                                                                                            
-    furthest above the diagonal connecting the first and last points.                                                                                                 
-    Falls back to argmax IIA if the curve is flat.                                                                                                  
-    """                                                                                                                                                               
+    """Pick the layer where the IIA curve stops rising steeply."""
     layers = sorted(layer_iia.keys())                                                                                                                                 
     iia    = np.array([layer_iia[l] for l in layers], dtype=float)                                                                                                    
                                                                                                                                                                         
@@ -329,7 +326,7 @@ def kneedle_layer(layer_iia: dict) -> int:
 def select_layer(
     model, tokenizer, df: pd.DataFrame, met_tok: int, lit_tok: int,
 ) -> tuple[int, dict]:
-    """Adjective-held-out activation patching IIA sweep, then kneedle on mean IIA curve."""
+    """Adjective held-out activation patching IIA sweep. Kneedle on the mean IIA curve over these round for different adjectives."""
     adjectives = df["adj"].unique().tolist()
     rng = np.random.default_rng(42)
     layers = list(range(LAYER_START, min(LAYER_END + 1, len(model.model.layers))))
@@ -374,7 +371,7 @@ def train_das(
     layer: int, k: int, met_tok: int, lit_tok: int,
     n_steps: int = None, seed: int = 42,
 ) -> tuple[np.ndarray, float]:
-    """Train DAS rotation. Injects at period token ('.' in test sentence)."""
+    """Train DAS rotation. Injects at the last period token."""
     if n_steps is None:
         n_steps = N_STEPS
     fix_seeds(seed)
@@ -824,9 +821,8 @@ def main():
         H_all  = extract_hidden(model, tokenizer, prompts, best_layer)
         labels = df["label"].tolist()
 
-        # M3 held-out adjectives (one per domain, seed=42) serve as the unified val set:
-        # global M2 val IIA  = pooled across all domains (same split)
-        # M3 transfer IIA    = per-domain slice of the same held-out set
+        # Test set: one adjective per domain (8 in total), the same ones in M2 and M3.
+        # M2 reports IIA on all 8 together. M3 reports it per domain.
         m3_held_out: set[str] = set()
         for _domain in sorted(df["domain"].dropna().unique()):
             _dom_adjs = sorted(df[df["domain"] == _domain]["adj"].unique().tolist())
