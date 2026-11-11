@@ -1,0 +1,42 @@
+## Usage
+
+### 1. Dataset loading and accuracy evaluation
+
+```bash
+python setup_load.py \
+    --model_name meta-llama/Llama-3.1-8B-Instruct \
+    --task task1 \
+    --dataset adj \
+    --test_acc
+```
+
+### 2. PCA visualization
+
+```bash
+python pca_visualization.py \
+    --model_name meta-llama/Llama-3.1-8B-Instruct \
+    --task task1 \
+    --dataset adj \
+    --layer 11 \
+    --load_in_4bit \
+    --output_dir pca_outputs
+```
+
+### 3. Activation patching
+
+```bash
+python activation_patching.py \
+    --model_name meta-llama/Llama-3.1-8B-Instruct \
+    --task task1 \
+    --dataset all \
+    --load_in_4bit \
+    --output_dir patching_outputs
+```
+
+### options:
+--task: task1 (identification) or task2 (interpretation).
+
+--dataset: adj, noun, or verb for Task 1; noun or verb for Task 2 (except where restricted by the script).
+
+For activation patching, all currently runs adjective and noun pairs for Task 1, and noun pairs for Task 2.
+

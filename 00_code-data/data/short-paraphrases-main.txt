@@ -1,0 +1,172 @@
+POS	term1	simple1	simple1 sentence	classt1	term2	simple2	simple2 sentence	classt2	term3	simple3	simple3 sentence	classt3
+?	translate	Braque translate collage into oils	Braque translated collage into oils	metaphoric	transform	Braque transform collage into oils	Braque transformed collage into oils	literal	interpret	Braque interpret collage into oils	Braque interpreted collage into oils	incorrect
+?	fracture	events fracture balance	Events fractured the balance of power	metaphoric	destroy	events destroy balance	Events destroyed the balance of power	literal	pervert	events pervert balance	Events perverted the balance of power	incorrect
+?	breathe	breath life	He breathed life into the house	metaphoric	instil	instil life	He instilled life into the house	literal	respire	respire life into house	He respired life into the house	incorrect
+?	level	level criticism	He levelled criticism at the government	metaphoric	address	address criticism	He levelled criticism at the government	literal	aim_at	aim criticism at government	He aimed criticism at the government	incorrect
+?	push	man push woman	He pushed her to finish her doctorate	metaphoric	urge	man urge woman	He urged her to finish her doctorate	literal	force	man force woman	He forced her to finish her doctorate	incorrect
+?	blast	woman blast	She blasts when speaking	metaphoric	shout	woman shout	She shouts when speaking	literal	explode	woman explode	She explodes when speaking	incorrect
+?	design	woman design	She designed to go into business	metaphoric	intended	woman intend	She intended to go into business	literal	invent	woman invent	She invented to go into business	incorrect
+?	tug	woman tug	She tugged to make a living	metaphoric	labor	woman labour	She laboured to make a living	literal	attract	woman attract	She attracted to make a living	incorrect
+?	dawn	age dawn	The age of computers dawned	metaphoric	begin	age begin	The age of computers began	literal	change	age change	The age of computers changed	incorrect
+?	sell	sell image	The French sell their image as great lovers	metaphoric	convince us of	convince us of image	The French convince us of their image as great lovers	literal	exchange	exchange image	The French exchange their image as great lovers	incorrect
+?	clap	judge clap criminal	The judge clapped the criminal in jail	metaphoric	put	judge put criminal	The judge put the criminal in jail	literal	applaud	judge applaud criminal in jail	The judge applauded the criminal in jail	incorrect
+?	push	salesman push computer	The salesman pushed the computer	metaphoric	promote	salesman promote computer	The salesman pushed the computer	literal	force	salesman forced the computer	The salesman forced the computer	incorrect
+?	incline	language incline	Their language inclines us to believe them	metaphoric	persuade	language persuade	Their language persuades us to believe them	literal	slope	language slope	Their language slopes us to believe them	incorrect
+?	digest	government digest law	The government digested the law into a code	metaphoric	systematize	government digest law	The government systematized the law into a code	literal	metabolize	government metabolize law	The government metabolized the law	incorrect
+SV	talk	actions talk	Actions talk	metaphoric	communicate	actions communicate	Actions communicate	literal	speak	actions speak	Actions speak	incorrect
+SV	dawn_on	idea dawn_on	An idea dawned on her	metaphoric	occur_to	idea occur_to	An idea occurred to her	literal	change	idea change	An idea changed with her	incorrect
+SV	lighten_up	man lighten_up	He lightened up	metaphoric	cheer_up	man cheer_up	He cheered up	literal	unburden	man unburden	He unburdened	incorrect
+SV	melt	resistance melt	Her resistance melted	metaphoric	weaken	resistance weaken	Her resistance weakened	literal	run	resistance run	Her resistance ran	incorrect
+SV	swim	brain swim	His brain swam	metaphoric	be_confused	brain be_confused	His brain was confused	literal	travel	brain travel	His brain travelled	incorrect
+SV	glow	heart glow	His heart glowed	metaphoric	rejoice	heart rejoice	His heart rejoiced	literal	radiate	heart radiate	His heart radiated	incorrect
+SV	reflect_badly_on	interest reflect_badly_on	His interest reflected badly on him	metaphoric	discredit	interest discredit	His interest discredited him	literal	mirror_badly_on	interest mirror_badly_on	His interest mirrored badly on him	incorrect
+SV	grope	mind grope	His mind groped to make the connection	metaphoric	try	mind try	His mind tried to make the connection	literal	fumble	mind fumble	His mind fumbled to make the connection	incorrect
+SV	crawl	skin crawl	His skin crawled	metaphoric	prickle	skin prickle	His skin prickled	literal	shuffle	skin shuffle	His skin shuffled	incorrect
+SV	ascend	inheritance ascend	Inheritance ascends linearly 	metaphoric	pass_on	inheritance pass_on	Inheritance passes on linearly	literal	go_up	inheritance go_up	Inheritance goes up linearly	incorrect
+SV	climb	sales climb	Sales climbed	metaphoric	increase	sales increase	Sales increased	literal	mount	sales mount	Sales mounted	incorrect
+SV	explode	boss explode	The boss exploded	metaphoric	rage	boss rage	The boss raged	literal	detonate	boss detonate	The boss detonated	incorrect
+SV	harmonize	colors harmonize	The colors harmonized	metaphoric	match	colors match	The colors matched	literal	consort	colors consort	The colors consorted	incorrect
+SV	ferment	country ferment	The country fermented	metaphoric	be_discontent	country be_discontented	The country was discontented	literal	change_chemically	country change_chemically	The country changed chemically	incorrect
+SV	flow	crowd flow	The crowd flowed	metaphoric	move	crowd move	The crowd moved	literal	flux	crowd flux	The crowd fluxed	incorrect
+SV	float	dancer float	The dancer floated	metaphoric	move	dancer move	The dancer moved	literal	drift	dancer drift	The dancer drifted	incorrect
+SV	blur	distinction blur	The distinction blurred	metaphoric	decrease	distinction decrease	The distinction decreased	literal	film_over	distinction film_over	The distinction filmed over	incorrect
+SV	breathe	fabric breathe	The fabric breathes	metaphoric	let_air_through	fabric let_air_through	The fabric lets air through	literal	respire	fabric respire	The fabric respires	incorrect
+SV	nod	flowers nod	The flowers nodded	metaphoric	sway	flowers sway	The flowers swayed	literal	gesticulate	flowers gesticulate	The flowers gesticulated	incorrect
+SV	sing	kettle sing	The kettle sang	metaphoric	sound	kettle sound	The kettle sounded	literal	chant	kettle chant	The kettle chanted	incorrect
+SV	leak	news leak	The news leaked	metaphoric	disclose	news disclose	The news was disclosed	literal	flow	news flow	The news flowed	incorrect
+SV	communicate	rooms communicate	The rooms communicated	metaphoric	connect	rooms connect	The rooms connected	literal	put_across	rooms put_across	The rooms put across	incorrect
+SV	relax	rules relax	The rules relaxed	metaphoric	moderate	rules moderate	The rules moderated	literal	loosen_up	rules loosen_up	The rules loosened up	incorrect
+SV	glare	sun glare	The sun glared	metaphoric	shine	sun shine	The sun shone	literal	stare angrily	sun stared angrily	The sun stared angrily	incorrect
+SV	emerge	results emerge	Some results emerged	metaphoric	appear	results appear	Some results appeared	literal	come_out	results come_out	Some results came out	incorrect
+SVO	drain	exercise drain woman	Exercise drained her	metaphoric	deplete	exercise deplete woman	Exercise depleted her	literal	drink	exercise drink woman	Exercise drank her	incorrect
+SVO	melt_into	actors melt_into scene	Actors melted into the scene	metaphoric	merge_into	actors merge_into scene	Actors merged into the scene	literal	thaw_into	actors thaw_into scene	Actors thawed into the scene	incorrect
+SVO	dull	age dull appetite	Age dulled her appetite	metaphoric	decrease	age decrease appetite	Age decreased her appetite	literal	change	age change appetite	Age changed her appetite	incorrect
+SVO	puff	fame puff ego	Fame puffed her ego	metaphoric	increase	fame increase  ego	Fame increased her ego	literal	breathe	fame breathe ego	Fame breathed her ego	incorrect
+SVO	level_with	man level_with woman	He levelled with her	metaphoric	be_honest_with	man be_honest_with woman	He was honest with her	literal	aim_with	man aim_with woman	He aimed with her	incorrect
+SVO	whistle_away	optimism whistle_away worries	Her optimism whistled away her worries	metaphoric	remove	optimism remove worries	The optimism removed her worries	literal	sound_away	optimism sound_away  worries	Her optimism sounded away her worries	incorrect
+SVO	lie_in	fate lie_in hands	His fate lay in her hands	metaphoric	is_in	fate is_in hands	His fate was in her hands	literal	recline_in	fate recline in hands	His fate reclined in her hands	incorrect
+SVO	color	feelings color judgement	His feelings coloured his judgment	metaphoric	affect	feelings affect judgement	His feelings affected his judgement	literal	colorize	feelings colorize judgment	His feelings colourized his judgement	incorrect
+SVO	square_with	idea square_with idea	His idea squared with her idea	metaphoric	match	idea match idea	His idea matched up with her idea	literal	shape_with	idea shape_with idea	His idea shaped with her idea	incorrect
+SVO	fuel	question fuel debate	His questions fuelled the debate	metaphoric	stimulate	question stimulate debate	His questions stimulated the debate	literal	fill_up	question fill_up debate	The questions filled up the debate	incorrect
+SVO	crush	refusal crush woman	His refusal crushed her	metaphoric	sadden	refusal sadden woman	His refusal saddened her	literal	oppress	refusal oppress woman	His refusal oppressed her	incorrect
+SVO	flash_to	intelligence flash_to post	Intelligence was flashed to the post	metaphoric	convey_to	intelligence convey_to post	Intelligence was conveyed to the post	literal	blink_to	intelligence blink_to post	Intelligence was blinked to the post	incorrect
+SVO	drain	life drain man	Life drained him	metaphoric	weakened	life weaken man	Life weakened him	literal	drink	life drink man	Life drank him	incorrect
+SVO	pour_out_of	people pour_out_of theatre	People poured out of the theatre	metaphoric	crowd_out_of	people crowd_out_of theatre	People crowded out of the theatre	literal	move_out_of	people move_out_of theatre	People moved out of the theatre	incorrect
+SVO	drift	prices drift higher	Prices drifted higher	metaphoric	become	prices become higher	Prices became higher	literal	float	prices float higher	Prices floated higher	incorrect
+SVO	infect	racism infect society	Racism infected society	metaphoric	corrupt	racism corrupt society	Racism corrupted society	literal	taint	racism taint society	Racism tainted society	incorrect
+SVO	ferment	religion ferment country	Religion fermented the country	metaphoric	provoke	religion provoke country	Religion provoked the country	literal	change_chemically	religion chemically_change country	Religion chemically changed the country	incorrect
+SVO	cloud	sadness cloud face	Sadness clouded his face	metaphoric	marked	sadness mark face	Sadness marked his face	literal	overcast	sadness overcast face	Sadness overcast his face	incorrect
+SVO	line	sorrow line face	Sorrow lined his face	metaphoric	wrinkle	sorrow wrinkle face	Sorrow wrinkled his face	literal	cover_inside_of	sorrow cover_inside_of face	Sorrow covered the inside of his face	incorrect
+SVO	map_on	sorrow map_on face	Sorrow was mapped on his face	metaphoric	visible_on	sorrow visible_on face	Sorrow was visible on his face	literal	represent_on	sorrow represent_on face	Sorrow was represented on his face	incorrect
+SVO	gutter	tears gutter	Tears guttered down her face	metaphoric	run	tears run	Tears ran down her face	literal	burn	tears burn	Tears burnt down her face	incorrect
+SVO	express	animal express trait	The animal expressed the trait	metaphoric	have	animal have trait	The animal had the trait	literal	show	animal show trait	The animal showed the trait	incorrect
+SVO	suck_in	boom suck_in workers	The boom sucked in workers	metaphoric	attract	boom attract workers	The boom attracted workers	literal	drink	boom drink workers	The boom drank the workers	incorrect
+SVO	rip_into	candidate rip_into opponent	The candidate ripped into the opponent	metaphoric	criticized	candidate criticize opponent	The candidate criticized his opponent	literal	rend	candidate rend opponent	The candidate rent into the opponent	incorrect
+SVO	gag	celebrity gag press	The celebrity gagged the press	metaphoric	silence	celebrity silence press	The celebrity silenced the press	literal	muzzle	celebrity muzzle press	The celebrity muzzled the press	incorrect
+SVO	pierce	cold pierce bones	The cold pierced her bones	metaphoric	affected	cold affect bones	The cold affected her bones	literal	make_hole_in	cold make_hole_in  bones	The cold made a hole in her bones	incorrect
+SVO	convulse	comedian convulse crowd	The comedian convulsed the crowd	metaphoric	amuse	comedian amuse crowd	The comedian amused the crowd	literal	contract	comedian contract crowd	The comedian contracted the crowd	incorrect
+SVO	dump	company dump man	The company dumped the man	metaphoric	dismiss	company dismiss man	The company dismissed the man	literal	discard	company discard man	The company discarded the man	incorrect
+SVO	flood	company flood market	The company flooded the market	metaphoric	oversupply	company oversupply market	The company oversupplied the market	literal	deluge	company deluge market	The company deluged the market	incorrect
+SVO	gravitate_to	conversation gravitate_to politics	The conversation gravitated to politics	metaphoric	tend_to	conversation tend_to politics	The conversation tended to politics	literal	attract	conversation attract politics	The conversation attracted politics	incorrect
+SVO	puff_up	critics puff_up production	The critics puffed up the production	metaphoric	overpraise	critics overpraise production	The critics overpraised the production	literal	breathe	critics breathe production	The critics breathed up the production	incorrect
+SVO	boost	cut boost economy	The cut boosted the economy	metaphoric	improve	cut improve economy	The cut improved the economy	literal	hike	cut hike economy	The cut hiked the economy	incorrect
+SVO	uproot	dictator uproot democracy	The dictator uprooted democracy	metaphoric	destroyed	dictator destroy democracy	The dictator destroyed democracy	literal	deracinate	dictator deracinate democracy	The dictator deracinated democracy	incorrect
+SVO	mold	dress mold figure	The dress moulded her figure	metaphoric	cling_to	dress cling_to figure	The dress clung to her figure	literal	model	dress model figure	The dress modelled her figure	incorrect
+SVO	deflate	event deflate currency	The event deflated the currency	metaphoric	reduce	event reduce currency	The event reduced the currency	literal	collapse	event collapse currency	The event collapsed the currency	incorrect
+SVO	engrave_into	event engrave_into memory	The event engraved itself into her memory	metaphoric	stay_in	event stay_in memory	The event stayed in her memory	literal	scratch_into	event scratch_into memory	The event scratched into her memory	incorrect
+SVO	devour	fire devour home	The fire devoured the home	metaphoric	destroy	fire destroy home	The fire destroyed the home	literal	eat	fire eat home	The fire ate the home	incorrect
+SVO	float	government float ruble	The government floated the ruble	metaphoric	allow_fluctuation_in	government allow_fluctuation_in ruble	The government allowed fluctuation in the ruble	literal	drift	government drift ruble	The government drifted the ruble	incorrect
+SVO	penetrate	hikers penetrate forest	The hikers penetrated the forest	metaphoric	advance_into	hikers advance_into forest	The hikers advanced into the forest	literal	perforate	hikers perforate forest	The hikers perforated the forest	incorrect
+SVO	look	house look north	The house looked North	metaphoric	orient	house orient north	The house is oriented North	literal	appear	house appear north	The house appeared North	incorrect
+SVO	amount_to	idea amount_to something	The idea amounted to something	metaphoric	result_in	idea result_in something	The idea resulted in something	literal	total	idea total something	The idea totalled something	incorrect
+SVO	bounce	man bounce person	The man bounced the person	metaphoric	eject	man eject person	The man ejected the person	literal	resile	man resile person	The man resiled the person	incorrect
+SVO	deflate	measures deflate economy	The measures deflated the economy	metaphoric	reduce	measures reduce economy	The measures reduced the economy	literal	collapse	measures collapse economy	The measures collapsed the economy	incorrect
+SVO	swim_in	meat swim_in gravy	The meat swam in gravy	metaphoric	cover_in	meat cover_in gravy	The meat was covered in gravy	literal	travel	meat travel in gravy	The meat travelled in gravy	incorrect
+SVO	reflect_on	mess reflect_on student	The mess reflected on the student	metaphoric	characterize	mess characterize student	The mess characterized the student	literal	mirror	mess mirror student	The mess mirrored the student	incorrect
+SVO	glare_off	moon glare_off lake	The moon glared off the lake	metaphoric	reflect_off	moon reflect_off lake	The moon reflected off the lake	literal	look_angrily_off	moon look_angrily_off lake	The moon looked angrily off the lake	incorrect
+SVO	peep_through	moon peep_through trees	The moon peeped through the trees	metaphoric	appear_through	moon appear_through trees	The moon appeared through the trees	literal	look_through	moon look_through trees	The moon looked through the trees	incorrect
+SVO	splash_with	mountain splash_with snow	The mountain was splashed with snow	metaphoric	spot_with	mountain spot_with snow	The mountain was spotted with snow	literal	sprinkle_with	mountain sprinkle_with snow	The mountain was sprinkled with snow	incorrect
+SVO	suck_at	mud suck_at feet	The mud sucked at her feet	metaphoric	pull_at	mud pull_at feet	The mud pulled at her feet	literal	drink	mud drink feet	The mud drank at her feet	incorrect
+SVO	shake	news shake hopes	The news shook her hopes	metaphoric	weaken	news weaken hopes	The news weakened her hopes	literal	agitate	news agitate hopes	The news agitated her hopes	incorrect
+SVO	buzz_with	office buzz_with activity	The office buzzed with activity	metaphoric	bustle_with	office bustle_with activity	The office bustled with activity	literal	bombinate_with	office bombinate_with activity	The office bombinated with activity	incorrect
+SVO	hunt_about	oscillator hunt_about frequency	The oscillator hunted about the frequency	metaphoric	vibrate_about	oscillator vibrate_about frequency	The oscillator vibrated about the frequency	literal	look_for	oscillator look_for frequency	The oscillator looked for the frequency	incorrect
+SVO	capture	painting capture essence	The painting captured his essence	metaphoric	represent	painting represent essence	The painting represented his essence	literal	imprison	painting imprison essence	The pinting imprisoned her essence	incorrect
+SVO	push_for	party push_for reforms	The party pushed for the reforms	metaphoric	campaign_for	party campaign_for reforms	The party campaigned for the reforms	literal	force	party forced the reforms	The party forced the reforms	incorrect
+SVO	want	piano want attention	The piano wants attention	metaphoric	require	piano require attention	The piano requires attention	literal	desire	piano desire attention	The piano desires attention	incorrect
+SVO	ruffle	play ruffle people	The play ruffled people	metaphoric	disturb	play disturb people	The play disturbed people	literal	ripple	play ripple person	The play rippled people	incorrect
+SVO	smash	police smash drug_ring	The police smashed the drug ring	metaphoric	arrest	police arrest drug_ring	The police arrested the drug ring	literal	break	police break drug_ring	The police broke the drug ring	incorrect
+SVO	visit	principal visit rage	The principal visited his rage upon the students	metaphoric	inflict	principal inflict rage	The principal inflicted his rage upon the students	literal	see	principal see rage 	The principal saw his rage on the students	incorrect
+SVO	salt	rebels salt fields	The rebels salted the fields with mines	metaphoric	scatter	rebels scatter fields	The rebels scattered the fields with mines	literal	season	rebels season fields	The rebels seasoned the fields with mines	incorrect
+SVO	pierce	scream pierce night	The scream pierced the night	metaphoric	sound_in	scream sound_in night	The scream sounded in the night	literal	make_hole_in	scream make_hole_in night	The scream made a hole in the night	incorrect
+SVO	spell	situation spell trouble	The situation spelt trouble	metaphoric	mean	situation mean trouble	The situation meant trouble	literal	write	situation write trouble	The situation wrote trouble	incorrect
+SVO	blaze_into	spaceship blaze_into space	The spaceship blazed into space	metaphoric	depart_into	spaceship depart_into  space	The spaceship departed into space	literal	shine_into	spaceship shine_into  space	The spaceship shone into space	incorrect
+SVO	crown	speech crown meeting	The speech crowned the meeting	metaphoric	culminate	speech culminate meeting	The speech culminated the meeting	literal	coronate	speech coronate meeting	The speech coronated the meeting	incorrect
+SVO	answer_to	steering answer_to touch	The steering answered to his touch	metaphoric	react_to	steering react_to touch	The steering reacted to his touch	literal	reply_to	steering reply_to touch	The steering replied to his touch	incorrect
+SVO	salute	stench salute nostrils	The stench saluted his nostrils	metaphoric	fill	stench fill nostrils	The stench filled his nostrils	literal	toast	stench toasted nostrils	The stench toasted his nostrils	incorrect
+SVO	grab	story grab woman	The story grabbed her	metaphoric	intrigue	story intrigue woman	The story intrigued her	literal	catch	story catch woman	The story caught her	incorrect
+SVO	cloud	stroke cloud memories	The stroke clouded her memories	metaphoric	impair	stroke impair memories	The stroke impaired her memories	literal	overcast	stroke overcast memories	The stroke overcast her memories	incorrect
+SVO	plunge_into	students plunge_into study	The students plunged into study	metaphoric	engage_in	students engage_in study	The students engaged in study	literal	immerse_in	students immerse_in study	The students were immersed in study	incorrect
+SVO	steamroller	teacher steamroller students	The teacher steamrollered the students	metaphoric	rush	teacher rush students	The teacher rushed the students	literal	flatten	teacher flatten students	The teacher flattened the students	incorrect
+SVO	rip_along	tornado rip_along coast	The tornado ripped along the coast	metaphoric	move_along	tornado move_along coast	The tornado moved along the coast	literal	rend_along	tornado rend_along coast	The tornado rent along the coast	incorrect
+SVO	guard_against	vaccine guard_against infection	The vaccine guarded against infection	metaphoric	protect_against	vaccine protect_against infection	The vaccine protected against infection	literal	watch_against	vaccine watch_against infection	The vaccine watched against infection	incorrect
+SVO	uproot	war uproot people	The war uprooted people	metaphoric	displace	war displace people	The war displaced people	literal	deracinate	war deracinate people	The war deracinated people	incorrect
+SVO	crown	weathervane crown building	The weathervane crowned the building	metaphoric	top	weathervane top building	The weathervane topped the building	literal	coronate	weathervane coronate building	The weathervane coronated the building	incorrect
+SVO	fracture	writer fracture language	The writer fractured the language	metaphoric	misuse	writer misuse language	The writer misused the language	literal	break	writer break language	The writer broke the language	incorrect
+VO	abuse	abuse alcohol	He abuses alcohol	metaphoric	drink	drink alcohol	He drinks alcohol	literal	mistreat	mistreat alcohol	He mistreats alcohol	incorrect
+VO	back	back horse	He backed the horse	metaphoric	bet_on	bet_on horse	He bet on the horse	literal	endorse	endorse horse	He endorsed the horse	incorrect
+VO	blaze_at	blaze_at soldiers	He blazed at the soldiers	metaphoric	shoot_at	shoot_at soldiers	He shot at the soldiers	literal	shine_at	shine_at soldiers	He shone at the soldiers	incorrect
+VO	buzz	buzz servant	He buzzed the servant	metaphoric	summon	summon servant	He summoned the servant	literal	bombinate	bombinate servant	He bombinated the servant	incorrect
+VO	climb	climb social_ladder	He climbed the social ladder	metaphoric	progress_up	progress_up social_ladder	He progressed up the social ladder	literal	mount	mount social_ladder	He mounted the social ladder	incorrect
+VO	drink_in	drink_in words	He drank in her words	metaphoric	listen_carefully_to	listen_carefully_to word	He listened carefully to her words	literal	imbibe	imbibe words	He imbibed her words	incorrect
+VO	drown	drown troubles	He drowned his troubles with alcohol	metaphoric	forget	forget trouble	He forgot his troubles with alcohol	literal	submerge	submerge troubles	He submerged his troubles in alcohol	incorrect
+VO	exhaust	exhaust food	He exhausted his food	metaphoric	use_up	use_up food	He used up his food	literal	tire_out	tire_out food	He tired out his food	incorrect
+VO	fasten	fasten nickname	He fastened a nickname to her	metaphoric	give	give nickname	He gave a nickname to her	literal	lock	lock nickname	He locked a nickname to her	incorrect
+VO	ignite	ignite hatred	He ignited hatred	metaphoric	arouse	arouse hatred	He aroused hatred	literal	light	light hatred	He lit hatred	incorrect
+VO	inject	inject life	He injected life into the performance	metaphoric	add	add life	He added life into the performance	literal	shoot	shoot life	He shot life into the performance	incorrect
+VO	juggle	juggle account	He juggled the account	metaphoric	falsify	falsify account	He falsified the account	literal	throw	throw account	He threw the account	incorrect
+VO	lock	lock hands	He locked his hands around her neck	metaphoric	encircle	encircle hands	He encircled his hands around her neck	literal	close	close hands	He closed his hands around her neck	incorrect
+VO	paste	paste opponent	He pasted his opponent	metaphoric	defeat	defeat opponent	He defeated his opponent	literal	glue	glue opponent	He glued his opponent	incorrect
+VO	poison	poison mind	He poisoned her mind	metaphoric	corrupt	corrupt mind	He corrupted her mind	literal	envenom	envenom	He envenomed her mind	incorrect
+VO	push	push drugs	He pushed drugs	metaphoric	sell	sell drugs	He sold drugs	literal	force	force drugs	He forced drugs	incorrect
+VO	recast	recast image	He recast his image	metaphoric	change	change image	He changed his image	literal	remould	remould image	He remoulded his image	incorrect
+VO	shed	shed image	He shed his image	metaphoric	dispelled	dispell image	He dispelled his image	literal	cast	cast image	He cast off his image	incorrect
+VO	shipwreck	shipwreck career	He shipwrecked her career	metaphoric	ruined	ruin career	He ruined her career	literal	destroy	destroy career	He destroyed her career	incorrect
+VO	shower	shower presents	He showered her with presents	metaphoric	provide	provide presents	He provided her with presents	literal	sprinkle	sprinkle presents	He sprinkled her with presents	incorrect
+VO	sign	sign disapproval	He signed his disapproval	metaphoric	communicate	communicate disapproval	He communicated his disapproval	literal	subscribe	subscribe disapproval	He subscribed his disapproval	incorrect
+VO	square	square shoulders	He squared his shoulders	metaphoric	pose	pose shoulders	He posed his shoulders	literal	shape	shape shoulder	He shaped his shoulders	incorrect
+VO	stumble_across	stumble_across cousin	He stumbled across his cousin	metaphoric	come_across	come_across cousin	He came across his cousin	literal	falter_across	falter_across cousin	He faltered across his cousin	incorrect
+VO	swell_with	swell_with importance	He swelled with importance	metaphoric	feel	feel important	He felt important	literal	increase_with	increase_with importance	He increased with importance	incorrect
+VO	tax	tax patience	He taxed her patience	metaphoric	strain	strain patience	He strained her patience	literal	levy	levy patience	He levied her patience	incorrect
+VO	wallow_in	wallow_in success	He wallowed in success	metaphoric	delight_in	delight_in success	He delighted in success	literal	roll_around_in	roll_around_in success	He rolled around in success	incorrect
+VO	lock_in	lock_in fit	He was locked in a fit	metaphoric	overwhelm_with	overwhelm_with fit	He was overwhelmed in a fit	literal	close_in	closed_in fit	He was closed in a fit	incorrect
+VO	visit_with	visit_with illness	He was visited with illness	metaphoric	afflict_with	afflict_with illness	He was afflicted with illness	literal	see_with	see_with illness	He was seen with illness	incorrect
+VO	wear	wear smile	He wore a smile	metaphoric	have	have smile	He had a smile	literal	dress_in	dress_in smile	He dressed in a smile	incorrect
+VO	wrestle_with	wrestle_with decision	He wrestled with the decision	metaphoric	ponder	ponder decision	He pondered the decision	literal	pull_at	pull_at decision	He pulled at the decision	incorrect
+VO	gather	gather idea	I gather your idea	metaphoric	understand	understand idea	I understand your idea	literal	collect	collect idea	I collect your idea	incorrect
+VO	attack	attack problem	She attacked the problem	metaphoric	start	start problem	She started on the problem	literal	fight	fight problem	She fought the problem	incorrect
+VO	blister	blister administration	She blistered the administration	metaphoric	criticized	criticize administration	She criticized the administration	literal	vesicate	vesicate administration	She vesicated the administration	incorrect
+VO	buy	buy lie	She bought the lie	metaphoric	believe	believe lie	She believed the lie	literal	purchase	purchase lie	She purchased the lie	incorrect
+VO	hack	hack pressure	She can hack the pressure	metaphoric	cope_with	cope_with pressure	She can cope with the pressure	literal	chop	chop pressure	She can chop the pressure	incorrect
+VO	circulate_among	circulate_among royalty	She circulates among royalty	metaphoric	appear_among	appear_among royalty	She appears among royalty	literal	go_around	go_around_among royalty	She goes around among royalty	incorrect
+VO	devour	devour novels	She devoured his novels	metaphoric	enjoy	enjoy novels	She enjoyed his novels	literal	destroy	destroy novels	She destroyed his novels	incorrect
+VO	exhaust	exhaust savings	She exhausted her savings	metaphoric	use_up	use_up savings	She used up her savings	literal	tire_out	tire_out savings	She tired out her savings	incorrect
+VO	float	float idea	She floated the idea	metaphoric	discuss	discuss idea	She discussed the idea	literal	drift	drift idea	She drifted the idea	incorrect
+VO	push	push fifty	She is pushing fifty	metaphoric	approach	approach fifty	She is approaching fifty	literal	force	force fifty	She is forcing fifty	incorrect
+VO	juggle	juggle job	She juggled her job and children	metaphoric	manage	manage job	She managed her job and children	literal	throw	throw job	She threw her job and children	incorrect
+VO	land_in	land_in jail	She landed in jail	metaphoric	bring_to	bring_to jail	She was brought to jail	literal	set_down	set_down in jail	She set down in jail	incorrect
+VO	mount	mount production	She mounted a production	metaphoric	organize	organize production	She organized a production	literal	attach	attach production	She attached a production	incorrect
+VO	pour	pour money	She poured money into her education	metaphoric	invest	invest money	She invested money into her education	literal	move	move money	She moved money into her education	incorrect
+VO	recapture	recapture feeling	She recaptured the feeling	metaphoric	recall	recall feeling	She recalled the feeling	literal	reimprison	reimprison feeling	She reimprisoned the feeling	incorrect
+VO	ruffle	ruffle composure	She ruffled his composure	metaphoric	disturb	disturb composure	She disturbed his composure	literal	ripple	ripple composure	She rippled his composure	incorrect
+VO	salt	salt lecture	She salts her lecture with jokes	metaphoric	complement	complement lecture	She complements her lectures with jokes	literal	season	season lecture	She seasons her lectures with jokes	incorrect
+VO	shake	shake car	She shook the car	metaphoric	escape	escape car	She escaped the car	literal	vibrate	vibrate car	She vibrated the car	incorrect
+VO	sow	sow suspicion	She sowed suspicion	metaphoric	instil	instil suspicion	She instilled suspicion	literal	place	place suspicion	She placed suspicion	incorrect
+VO	stoop_to	stoop_to deceit	She stooped to deceit	metaphoric	condescend_to	condescend_to deceit	She condescended to deceit	literal	crouch_to	crouch_to deceit	She crouched to deceit	incorrect
+VO	taste	taste freedom	She tasted her freedom	metaphoric	experience	experience freedom	She experienced her freedom	literal	eat	eat freedom	She ate her freedom	incorrect
+VO	twist	twist words	She twisted his words	metaphoric	misinterpret	misinterpret words	She misinterpreted his words	literal	revolve	revolve words	She revolved his words	incorrect
+VO	drown_in	drown_in work	She was drowned in work	metaphoric	overwhelm_with	overwhelm_with work	She was overwhelmed with work	literal	submerge_in	submerge_in work	She was submerged in work	incorrect
+VO	shower	shower praise	She was showered with praise	metaphoric	lavish	lavish praise	She was lavished with praise	literal	sprinkle	sprinkle praise	She was sprinkled with praise	incorrect
+VO	stagger_with	stagger_with bills	She was staggered with bills	metaphoric	overwhelm_with	overwhelm_with bills	She was overwhelmed with bills	literal	reel_with	reel_with bills	She reeled with bills	incorrect
+VO	waste	waste inheritance	She wasted her inheritance	metaphoric	squander	squander inheritance	She squandered her inheritance	literal	get_rid_of	get_rid_of inheritance	She got rid of her inheritance	incorrect
+VO	wrestle_with	wrestle_with feeling 	She wrestled with her feelings	metaphoric	deal	deal with feeling	She wrestled with her feelings	literal	pull_at	pull_at feeling	She pulled at her feelings	incorrect
+VO	lock_in	lock_in embrace	They were locked in embrace	metaphoric	together_in	together_in embrace	They were together in embrace	literal	fasten_in	fastened_in embrace	They were fastened in embrace	incorrect

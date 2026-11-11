@@ -1,0 +1,131 @@
+startphrase,ending1,ending2,labels,valid,qid
+The book is a puzzle,The book is complicated.,The book is not complicated.,0,1,849
+The book is a clear page,The book is complicated.,The book is not complicated.,1,1,849
+The politician is glass,The politician is transparent,The politician is not transparent,0,1,1111
+The politician is a wall,The politician is transparent,The politician is not transparent,1,1,1111
+The car is a cheetah,The car is fast,The car is not fast,0,1,1182
+The car is a slug,The car is fast,The car is not fast,1,1,1182
+The plot is a straight line,The plot is simple,The plot is not simple,0,1,1402
+The plot is a maze,The plot is simple,The plot is not simple,1,1,1402
+The cake is dirt,The cake is bad,The cake is good,0,1,1417
+The cake is heaven,The cake is bad,The cake is very good,1,1,1417
+The pizza is cardboard,The pizza is stale.,The pizza is delicious.,0,1,1641
+The pizza is a feast,The pizza is stale.,The pizza is delicious.,1,1,1641
+The snow is stone,The snow is heavy,The snow is light and airy,0,1,1709
+The snow is powder,The snow is heavy,The snow is light and airy,1,1,1709
+The sun is a candle,The sun is weak,The sun is powerful,0,1,X20
+The sun is a starburst,The sun is weak,The sun is powerful,1,1,X20
+The virus is wildfire,The spread is contagious,The spread is not contagious,0,1,X103
+The virus is a spark,The spread is contagious,The spread is not contagious,1,1,X103
+The car has a toy engine,The car has a small engine.,The car has a powerful engine.,0,1,X117
+The car has a jet engine,The car has a small engine.,The car has a powerful engine.,1,1,X117
+The dress is a coin,The dress is dull,The dress is shiny,0,1,X165
+The dress is the sun,The dress is dull,The dress is shiny,1,1,X165
+The concert is a train,The concert is crowded,The concert is not crowded,0,1,X213
+The concert is a tomb,The concert is crowded,The concert is not crowded,1,1,X213
+The child is calm water,The child is laidback.,The child is fussy.,0,1,X239
+The child is a storm,The child is laidback.,The child is fussy.,1,1,X239
+The soup is lava,The soup is hot.,The soup is cold.,0,1,X262
+The soup is ice,The soup is hot.,The soup is cold.,1,1,X262
+It is mud,It is very dirty.,It is clean.,0,1,X280
+It is glass,It is very dirty.,It is clean.,1,1,X280
+The pool is a swamp,The pool is dirty,The pool is clean,0,1,X309
+The pool is crystal,The pool is dirty,The pool is clean,1,1,X309
+The moon is a boulder,The moon is huge,The moon is tiny,0,1,X406
+The moon is a pebble,The moon is huge,The moon is tiny,1,1,X406
+Her status is a coin toss,It is not certain,It is definite,0,1,X423
+Her status is sunrise,It is not certain,It is definite,1,1,X423
+His status is a shadow,His status is not high,His status is high,0,1,X429
+His status is a king,His status is not high,His status is high,1,1,X429
+The bed is a palace,He has nice accommodations.,He has poor accommodations.,0,1,X544
+The bed is a shack,He has nice accommodations.,He has poor accommodations.,1,1,X544
+She is a queen to her guests,She provides good service.,She provides bad service.,0,1,X545
+She is a burden to her guests,She provides good service.,She provides bad service.,1,1,X545
+The breeze is ice,The breeze is cold.,The breeze is hot.,0,1,X732
+The breeze is fire,The breeze is cold.,The breeze is hot.,1,1,X732
+The container is rock,The container is strong,The container is weak,0,1,X755
+The container is paper,The container is strong,The container is weak,1,1,X755
+The man is a bear,The man is strong,The man is weak,0,1,X901
+The man is a kitten,The man is strong,The man is weak,1,1,X901
+They are his shadow,They trust him,They do not trust him,0,1,X1071
+They are strangers,They trust him,They do not trust him,1,1,X1071
+The girl is a rose,The girl is pretty.,The girl is ugly.,0,1,X1134
+The girl is a thorn,The girl is pretty.,The girl is ugly.,1,1,X1134
+The bread is stone,It is very hard,It is soft,0,1,X1143
+The bread is a pillow,It is very hard,It is soft,1,1,X1143
+Her heart is ice,Her heart is cruel,Her heart is soft,0,1,X1212
+Her heart is fruit with a shell,Her heart is cruel,Her heart is soft,1,1,X1212
+They are enemies,They are not close,They are close,0,1,X1356
+They are family,They are not close,They are close,1,1,X1356
+His bones are steel,His bones are strong,His bones are weak,0,1,X1377
+His bones are glass,His bones are strong,His bones are weak,1,1,X1377
+The man is a dog,The man is friendly,The man is mean,0,1,X1474
+The man is a lion,The man is friendly,The man is mean,1,1,X1474
+The day is winter,The day is long.,The day is short.,0,1,X1630
+The day is summer,The day is long.,The day is short.,1,1,X1630
+The woman is a tower,The woman is tall,The woman is short,0,1,X1711
+The woman is a pebble,The woman is tall,The woman is short,1,1,X1711
+The bird is noise,The song is annoying,The song is melodic,0,1,X1789
+The bird is music,The song is annoying,The song is melodic,1,1,X1789
+The man is a puddle,He is shallow,He is deep,0,1,X1848
+The man is an ocean,He is shallow,He is deep,1,1,X1848
+Her eyes are light,She looks kind,She looks angry,0,1,X1903
+Her eyes are stone,She looks kind,She looks angry,1,1,X1903
+The pimple is a mountain,The pimple is big,The pimple is small,0,1,X1943
+The pimple is dust,The pimple is big,The pimple is small,1,1,X1943
+I am Spiderman,I have good dexterity,I have bad dexterity,0,1,X2039
+I am a newborn deer,I have good dexterity,I have bad dexterity,1,1,X2039
+Their cause is a snowflake,The cause has no support,The cause has massive support,0,1,X2139
+Their cause is an avalanche,The cause has no support,The cause has massive support,1,1,X2139
+He is a snake,He is dangerous,He is not dangerous,0,1,X2175
+He is a butterfly,He is dangerous,He is not dangerous,1,1,X2175
+He is a weightlifter,He is muscular,He is not muscular,0,1,X2186
+He is a jellyfish,He is muscular,He is not muscular,1,1,X2186
+The puzzle is rocket science,The puzzle is difficult,The puzzle is easy,0,1,X2221
+The puzzle is the alphabet,The puzzle is difficult,The puzzle is easy,1,1,X2221
+The girl’s ego is iron,The girl has a strong ego,The girl has a fragile ego,0,1,X2246
+The girl’s ego is glass,The girl has a strong ego,The girl has a fragile ego,1,1,X2246
+The apartment is a box,The apartment is small,The apartment is huge,0,1,X2299
+The apartment is a tower,The apartment is small,The apartment is huge,1,1,X2299
+It is dust,It is old,It is not old,0,1,X2379
+It is a baby,It is old,It is not old,1,1,X2379
+The blade is a knife,The blade is sharp,The blade is dull,0,1,X2430
+The blade is putty,The blade is sharp,The blade is dull,1,1,X2430
+The boy’s legs are pudding,The boy’s legs are shaky.,The boy’s legs are sturdy.,0,1,X2501
+The boy’s legs are steel,The boy’s legs are shaky.,The boy’s legs are sturdy.,1,1,X2501
+The argument is a pillow fight,The argument is harmless.,The argument is harmful.,0,1,X2502
+The argument is a war,The argument is harmless.,The argument is harmful.,1,1,X2502
+The fighter is a dog,He is tired,He is full of energy,0,1,X2590
+The fighter is lightning,He is tired,He is full of energy,1,1,X2590
+The woman is a mouse,The woman is shy,The woman is confident,0,1,X2661
+The woman is a lawyer,The woman is shy,The woman is confident,1,1,X2661
+The apprentice is a cat,The apprentice is agile,The apprentice is clumsy,0,1,X2683
+The apprentice is a hippo,The apprentice is agile,The apprentice is clumsy,1,1,X2683
+Love is a flower,Love is beautiful,Love is war,0,1,X2689
+Love is a battlefield,Love is beautiful,Love is war,1,1,X2689
+He is a dog,He is social,He is antisocial,0,1,X2791
+He is a cat,He is social,He is antisocial,1,1,X2791
+Her hair is silk,The hair is soft,The hair is rough,0,1,X2812
+Her hair is thorns,The hair is soft,The hair is rough,1,1,X2812
+I am a delinquent,I am not disciplined,I am very disciplined,0,1,X2976
+I am a monk,I am not disciplined,I am very disciplined,1,1,X2976
+The house is a closet,The house is small,The house is large,0,1,X2977
+The house is a stadium,The house is small,The house is large,1,1,X2977
+The salesman is sandpaper,The salesman is bad,The salesman is good,0,1,X3018
+The salesman is silk,The salesman is bad,The salesman is good,1,1,X3018
+The oak tree is a big umbrella,The tree gives shade,The tree gives little shade,0,1,X3049
+The oak tree is a tiny umbrella,The tree gives shade,The tree gives little shade,1,1,X3049
+Her morals are armor,She has strong morals,She has weak morals,0,1,X3083
+Her morals are paper,She has strong morals,She has weak morals,1,1,X3083
+The stove is ice,The stove does not get hot.,The stove gets very hot.,0,1,X3096
+The stove is the sun,The stove does not get hot.,The stove gets very hot.,1,1,X3096
+The computer is a cheetah,The computer is fast,The computer is slow,0,1,X3109
+The computer is molasses,The computer is fast,The computer is slow,1,1,X3109
+The baby’s skin is silk,The baby’s skin is smooth,The baby’s skin is not smooth,0,1,X3120
+The baby’s skin is sand,The baby’s skin is smooth,The baby’s skin is not smooth,1,1,X3120
+The flower is a bride,The flower is beautiful,The flower is ugly,0,1,X3163
+The flower is a monster,The flower is beautiful,The flower is ugly,1,1,X3163
+The child’s brain is a computer,The child is smart,The child is dumb,0,1,X3179
+The child’s brain is an abacus,The child is smart,The child is dumb,1,1,X3179
+The bear is a whale,The bear is big,The bear is small,0,1,X3180
+The bear is a mouse,The bear is big,The bear is small,1,1,X3180

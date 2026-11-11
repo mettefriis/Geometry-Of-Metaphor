@@ -21,4 +21,6 @@ cd ../04_generation      && for j in jobs/*.job; do sbatch $j; done
 cd ../05_judge           && for j in jobs/*.job; do sbatch $j; done
 ```
 
+`00_code-data` (ADJ/NOUN activation patching and PCA) runs separately: see `00_code-data/code/readme`, and point the data paths in `setup_load.py` to `00_code-data/data/`.
+
 Wait for each stage to finish before starting the next. Replace the `module` and `source` lines in the jobs with your own environment.
