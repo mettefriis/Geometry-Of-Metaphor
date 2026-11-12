@@ -1,6 +1,5 @@
 # Geometry-Of-Metaphor
-Code for "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language models" (BlackboxNLP 2026). Paper: https://arxiv.org/pdf/2610.31520
-
+Code for "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language models" (BlackboxNLP 2026).
 ## Setup
 
 ```bash
